@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=PlayfairDisplay:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'PlayfairDisplay',sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color:beige; /* Match dark earthy theme */
+    padding: 0 2px;
+}
+
+/* About */
+.abt-container {
+    font-family: monospace;
+    display: flex;
+    flex-grow: 1;
+}
+
+.abt-img-container {
+    height: 50vh;
+    width: 100vw;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+
+.abt-content {
+    margin-top: 10px;
+    margin-left: 25px;
+    position: relative;
+}
+
+h2 {
+    color: #D3C2B0; /* Soft natural beige */
+}
+
+h1 {
+    color: #A67C52; /* Warm cocoa heading */
+}
+
+.abtimg {
+    height: 87vh;
+    width: 40vw;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+i {
+    font-size:20px;
+    font-weight: 700;
+    color: #A67C52; /* Accent icon */
+}
+
+p {
+    font-size:20px;
+    color: #4E3527; /* Soft natural text */
+}
+
+.btnabt-readMore {
+    background-color: #A67C52; /* Soft brown */
+    padding: 12px 50px;
+    color: white;
+    font-size: 20px;
+    border-radius: 20em;
+    border: none;
+}
+
+.btnabt-readMore:hover {
+    color: #A67C52;
+    background-color: #4E3527; /* Deep brown hover */
+    filter: drop-shadow(2px 2px 2px #A67C52);
+}
+
+.abt-btn-rdmode {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-right: 15%;
+}

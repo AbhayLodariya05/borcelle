@@ -1,0 +1,82 @@
+.main-contact {
+    margin-top: 5%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.left-content-contact {
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+.left-content-contact h1 {
+    font-size: 60px;
+    color: #A67C52; /* Warm cocoa heading */
+}
+
+.left-content-contact i,
+.left-content-contact p {
+    color: #D3C2B0; /* Soft natural beige text */
+}
+
+.left-content-contact b {
+    font-size: 25px;
+    color: #A67C52; /* Accent title */
+}
+
+.right-textbox-container {
+    margin-right: 10%;
+    margin-left: 20%;
+}
+
+input {
+    padding-left: 20px;
+    padding-right: 150px;
+    font-size: 20px;
+    height: 80px;
+    margin: 5px;
+    color: #4E3527; /* Rich text inside form */
+    background-color: #D3C2B0; /* Elegant beige input bg */
+    border-radius: 20px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.txtarea {
+    margin-top: 5px;
+    height: 250px;
+    width: 419px;
+    color: #4E3527;
+    background-color: #D3C2B0;
+    border-radius: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btnsub {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-top:5px;
+    margin-right:20%;
+}
+
+.btnsub button {
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 40px;
+    background-color: #A67C52; /* Polished clay tone */
+    letter-spacing: 3px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.btnsub button:hover {
+    background-color: #4E3527; /* Espresso hover */
+    filter: drop-shadow(0px 5px 15px #4E3527);
+}

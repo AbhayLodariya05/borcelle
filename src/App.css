@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family="PlayfairDisplay:wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Elegant:wght@400;700&display=swap'); */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: beige;
+    font-family: 'PlayfairDisplay', sans-serif;
+}
+
+/* navbar */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    height: 80px;
+    width: 100%;
+    /* font-family: 'Elegant', sans-serif; */
+    border-bottom: 3px solid #A89F91;
+    /* Softer taupe border */
+}
+
+.logoimage {
+    height: 70px;
+    width: 70px;
+    filter: contrast(100%);
+    filter: brightness(70%);
+}
+
+.nav-img-h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav h1 {
+    color: #A67C52;
+    /* Warm cocoa tone */
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 10px;
+}
+
+nav h1:hover {
+    filter: drop-shadow(1px 10px 7px #D3C2B0);
+    /* Light beige glow */
+    cursor: pointer;
+}
+
+.Headerlinks {
+    display: flex;
+    gap: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #A89F91;
+    /* Elegant soft beige for links */
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    animation: mymove 5s infinite;
+}
+
+nav a:hover {
+    color: #A67C52;
+    border-bottom: 1px solid #A67C52;
+    transform: scale(1.1);
+}
+
+/* Home */
+.mainhomeimg {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 45vh;
+    width: 100%;
+    flex-grow: 1;
+    filter: contrast(100%);
+    border-radius: 10px;
+}
+
+.mainhomeimg1,
+.mainhomeimg2,
+.mainhomeimg3 {
+    margin-top: 5px;
+    height: 41vh;
+    width: 15vw;
+    filter: contrast(100%);
+    border-radius: 10px;
+    animation: myfirst 30s 2;
+}
+
+.btnhome {
+    padding: 10px 100px;
+    background-color: #A67C52;
+    /* Warm earthy brown */
+    border-radius: 20px;
+    color: whitesmoke;
+    font-size: 20px;
+    border: none;
+}
+
+.btnhome:hover {
+    background-color: #4E3527;
+    /* Rich espresso brown */
+}
+
+.second-home-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    gap: 3px;
+    flex-grow: 1;
+}
+
+.homeimgs {
+    display: flex;
+    gap: 15px;
+}
+
+.content {
+    margin-left: 10px;
+    margin-top: 30px;
+    height: 100%;
+    width: 36%;
+    flex-grow: 1;
+}
+
+.content p {
+    flex-grow: 1;
+    font-size:20px;
+    color: #4E3527;
+    /* Consistent soft beige text */
+}
+
+nav i {
+    display: none;
+}

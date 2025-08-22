@@ -1,0 +1,38 @@
+.cours-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  grid-template-rows: repeat(2, 1fr);    /* 2 rows */
+  gap: 20px;
+  height: 89vh;
+  width: 100%;
+  padding: 20px;
+}
+
+.cone, .ctwo, .cthree, .cfour {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  border-radius: 10px;
+}
+
+.cone img, .cfour img {
+  border-radius: 20px;
+  height: 100%;
+  width: 81%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.ctwo h2, .cthree h2 {
+  color: #A67C52; /* Heading - warm cocoa */
+}
+
+.ctwo h4, .cthree h4 {
+  color: #d8b795; /* Subheading - soft beige */
+}
+
+.ctwo p, .cthree p {
+  color: #4E3527; /* Paragraph - soft beige */
+}

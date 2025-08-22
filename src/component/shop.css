@@ -1,0 +1,93 @@
+.shop-maim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 89vh;
+    width: 100%;
+    padding: 20px;
+    font-family: monospace;
+}
+
+.shop-header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.shop-maim i {
+    color: #A67C52; /* Warm cocoa */
+    font-size: 40px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.shop-maim p {
+    color: #D3C2B0; /* Soft natural text */
+}
+
+.shop-soap-container {
+    display:flex;
+    margin-top: 20px;
+    gap: 30px;
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    overflow-x:scroll ;
+}
+.soap1,
+.soap2,
+.soap3,
+.soap4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3EEE8; /* Light natural card bg */
+    height:85%;
+    width:80%;
+    border-radius: 10px;
+}
+
+.soap1:hover,
+.soap2:hover,
+.soap3:hover,
+.soap4:hover {
+    filter: drop-shadow(0px 10px 20px #A67C52); /* Softer shadow */
+}
+
+.soap1 p,
+.soap2 p,
+.soap3 p,
+.soap4 p {
+    color: #A67C52; /* Elegant content text */
+}
+
+.soap1 button,
+.soap2 button,
+.soap3 button,
+.soap4 button {
+    padding: 10px 20px;
+    color: white;
+    background-color: #A67C52; /* Warm button */
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+}
+
+.shop-soap-container button:hover {
+    background-color: #4E3527; /* Deep brown hover */
+    color: white;
+    filter: drop-shadow(0px 10px 20px #A67C52);
+    transform: scale(1.03);
+}
+
+.shop-soap-container img {
+    margin: -5px;
+    border-radius: 10px;
+    height:70%;
+    width: 95%;
+}
+
+
