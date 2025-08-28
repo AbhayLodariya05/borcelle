@@ -4,7 +4,7 @@ BorCelle is a modern skincare shop and learning platform built with **React + Vi
 It provides an elegant shopping experience for natural soaps and a dedicated space for courses on skincare and wellness.  
 ---
 ## Home Page
-![BorcelleHome](./public/borcelle.png)
+![BorcelleHome](./public/borcelleHome.png)
 ## About page
 ![BorcelleHome](./public/borcelleAbout.png)  
 ## Courses page
